@@ -1,3 +1,8 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -232,6 +237,13 @@ footer {
   border-radius: 20px;
   height: 100%;
 }
+.home .space-images .star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 0 25%;
+}
 @media (max-width: 500px) {
   .home .space-images .blast {
     width: 100%;
@@ -317,4 +329,10 @@ footer {
     width: 95%;
     margin: 0 5%;
   }
+}
+.contactUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
